@@ -10,7 +10,7 @@ var options = [
   "Orange",
 ];
 
-$(window).load(function () {
+$(window).ready(function () {
   initialize();
 });
 
