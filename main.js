@@ -35,9 +35,10 @@ function initializeSearch() {
 function initializeSearchItems() {
   for (var i = 0; i < options.length; i++) {
     $("#box").append(`
-			<li class="ui-screen-hidden">
-				<a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r">${options[i]}</a>
-			</li>`);
+		<li class="ui-screen-hidden">
+			<a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r">${options[i]}</a>
+		</li>`
+	);
   }
 }
 
