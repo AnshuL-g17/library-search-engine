@@ -25,5 +25,11 @@ $(window).load(function(){
     list.forEach(a => a.addEventListener('click' , function(){
 	alert (`you cicked on ${a.text}`);
 }));
+	
+	const clear = document.querySelectorAll("ui-input-clear ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all ui-input-clear-hidden");;
+
+    clear.EventListener('click' , function(){
+	alert (`you cicked on ${a.text}`);
+});
 });
 
