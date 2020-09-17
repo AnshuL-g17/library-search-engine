@@ -12,7 +12,7 @@ var options = [
 
 var template = Handlebars.compile(`
     <li class="ui-screen-hidden">
-      <a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r"> {{option}}</a>
+      <a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r"><h1> {{option}} </h1></a>
     </li>`);
 
 
@@ -34,7 +34,7 @@ function initializeAlphabets() {
 function initializeSearch() {
   initializeSearchItems();
   $("#box li a").click(function (e) {
-    displayMessage(e.target.innerHTML);
+    this.style.color = "#ff0000";
   });
 }
 
