@@ -12,7 +12,7 @@ var options = [
 
 var template = Handlebars.compile(`
     <li class="ui-screen-hidden">
-      <a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r"> "{{option}}"</a>
+      <a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r"> {{option}}</a>
     </li>`);
 
 
